@@ -20,7 +20,7 @@ END;
     echo <<<END
     <div class="footer">
       <div class="date">$date</div>
-      <div class="Company">Any Co.</div>
+      <div class="company">Any Co.</div>
     </div>
 END;
   }
