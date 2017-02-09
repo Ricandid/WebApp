@@ -1,3 +1,6 @@
+<h1>
+<a href="logout.php"> LOG OUT </a>
+</h1>
 <?php
   require ('anyco_ui.inc');
   $conn = oci_connect('hr', 'hr', '//localhost/XE');
