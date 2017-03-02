@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity 9</title>
+</head>
+<body>
+<script type="text/javascript">
+
+
+	function getGrade(){ 
+		var status = true;
+		while(status){
+			var grade = prompt("Enter your grade: ","your grade here") ;
+
+			switch(true){
+				case (grade>=96 && grade<=100):
+					document.write("A+ <br/>");
+					status=false;
+					break;
+				case (grade>=91 && grade<=95):
+					document.write("A <br/>");
+					status=false;
+					break;
+				case (grade>=86 && grade<=90):
+					document.write("A- <br/>");
+					status=false;
+					break;
+				case (grade>=81 && grade<=85):
+					document.write("B+ <br/>");
+					status=false;
+					break;
+				case (grade>=76 && grade<=80):
+					document.write("B <br/>");
+					status=false;
+					break;
+				case (grade>=71 && grade<=75):
+					document.write("B- <br/>");
+					status=false;
+					break;
+				case (grade>=66 && grade<=70):
+					document.write("C+ <br/>");
+					status=false;
+					break;
+				case (grade>=61 && grade<=65):
+					document.write("C <br/>");
+					status=false;
+					break;
+				case (grade>=50 && grade<=60):
+					document.write("C- <br/>");
+					status=false;
+					break;
+				case (grade>=0 && grade<=49):
+					document.write("F <br/>");
+					status=false;
+					break;
+				default: alert("Re-enter correct grade.");
+			}
+		}		
+	}
+</script>
+
+<form>
+	<input type="button" value="Click Me! " onclick="getGrade()"/>
+</form>
+</body>
+</html>
